@@ -1,0 +1,86 @@
+body {
+    margin:0;
+    background-image:url(../imagenes/fondo.jpg);}
+}
+
+td {
+    padding:0px;
+    margin:0px;
+}
+
+#tabla01 {
+    width:800px;
+    height:600px;
+    margin:0 auto;
+    border-collapse:collapse;
+}
+
+#celdaLogo {
+    width:174px;
+    height:164px;
+    background-image:url(../imagenes/logo.jpg)
+}
+
+#celdaTitulo {
+    width:470px;
+    height:133px;
+    background-image:url(../imagenes/title.jpg);
+}
+
+#celdaSDcha {
+    width:156px;
+    background-image:url(../imagenes/sup_dcha.png);
+}
+#celdaFondo {
+    width:800px;
+    height:402px;
+   background-image:url(../imagenes/fondo.jpg);}
+}
+
+#celdaInf {
+    height:34px;
+    background-image:url(../imagenes/inferior.png);
+}
+
+#celdaMenu {
+    font: 90% "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-image:url(../imagenes/menu.jpg);
+}
+
+#celdaMenu ul, li {
+    list-style-type: none;
+}
+
+#celdaMenu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#celdaMenu li {
+    float: left;
+    height:26px;
+}
+
+#celdaMenu a {
+    text-decoration: none;
+    color: #3366CC;}
+
+.textoBlanco {
+	color:#ffffff;
+}
+
+.margenes {
+padding:10;}
+
+.textoJustificado {
+text-align: justify }
+
+.imagenfondo {
+background-image:url(../imagenes/fondo.jpg);}
+
+
+#fondoTexto {
+background-image:url(../imagenes/inferior.png);}
+
+.textomorado{
+color:#cc00cc;}
