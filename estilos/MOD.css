@@ -1,0 +1,93 @@
+* { margin: 0px;
+padding: 0px; outline: 0;
+}
+html, body { width: 100%;}
+
+body { background: #366;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#principal {width: 40px;
+color: #ff1;
+background-color: #396;
+border: solid 1px #fff;
+padding: 8px;
+position: relative;
+margin: 20px;
+font-size: 0.9em;
+text-align: center;
+cursor: pointer;
+}
+#principal:hover {background-color: #0000CA;}
+
+#principal:hover #menu {display: block;
+}
+
+#menu {  text-align: center;
+font-size: 0.85em;
+width: 320px;
+display: none;
+position: relative;
+padding-top: 10px;
+left: -9px;
+margin-bottom: -10px;
+}
+
+
+#menu ul { list-style-type: none;border: 0;
+}
+#menu ul li.nivel1 {
+width: 162px;
+}
+#menu ul li.primera { border-top: solid 1px #FFF;
+}
+#menu ul li a {display: block;
+text-decoration: none;
+color: #fff;
+background-color: #399;
+border: solid 1px #fff;
+border-top: none;
+padding: 8px;
+position: relative;
+}
+#menu ul li:hover {position: relative;
+background-color: #6CC;
+color: #000;
+}
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {background-color: #6CC;
+color: #000;
+position: relative;
+}
+#menu ul li a.nivel1 {display: block!important;display: none;
+position: relative;
+}
+#menu ul li ul {display: none;
+}
+#menu ul li a:hover ul, #menu ul li:hover ul {display: block;
+position: absolute;left: 161px;top:-1px!important;top: -31px;
+}
+#menu ul li ul li a {width: 150px;
+background-color: #6CC;
+color: #000;
+}
+#menu ul li ul li a:hover {position: relative;
+background-color: #399;
+color: #FFF;
+}
+table.falsa {border-collapse:collapse;
+border:0px;
+float: left;
+position: relative;
+}
+
+.open-hide{
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  display: block;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/menu.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25px;
+  text-indent: -9999em;
+  outline: 0;
